@@ -138,3 +138,23 @@ section a>[data-rehype-pretty-code-figure]>code>span {
   background-position-x: left;
   background-size: 100% 0.125em;
 }
+
+/* sm width footer break line */
+
+@media (min-width: 640px) {
+  .sm-bk-line {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .md-dot {
+    display: none;
+  }
+}
+
+/* add footer spans margin */
+
+footer>div>span {
+  margin: 0.25rem;
+}
