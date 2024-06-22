@@ -8,7 +8,7 @@ import optimizeImg from './plugins/lts/optimize-img.ts'
 
 const site = lume({
   src: './src',
-  location: new URL('https://lume.shiraha.js.org/'),
+  location: new URL('https://lume.trle5.xyz/'),
 }, { markdown: {} })
   .use(sharedPlugins())
   .use(remarkPlugins())
